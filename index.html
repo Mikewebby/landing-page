@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Michael Ellis Jr">
+        <meta name="description" content="This page contains all the the things i am learning how to create as I learn html">
+        <link rel="stylesheet" href="main.css">
+        <title>Practices for class</title>      
+        <script src="https://kit.fontawesome.com/d1e6063450.js" crossorigin="anonymous"></script>     
+
+    </head>
+    
+    <body>
+
+        <div class="container1">
+
+            <div class="flex-item">
+                <header id="header"><i id="header-img" class="fa-solid fa-sailboat"></i>
+                Smooth Sailing Rides</header>
+            </div>
+
+            <div class="flex-item">
+                <nav>
+                    <!--still need to have  three clickable elements inside the nav element, each with the class nav-link-->
+                    <ul>
+                        <li class="nav-link"><a href="#Need">home</a></li>
+                        <li class="nav-link"><a href="#vid"> servies</a></li>
+                        <li class="nav-link"><a href="#form"> contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+
+        <div class="container2">
+        
+            <div class="flex-item2 center">
+            <h1 id="Need" class="center">Need a ride?</h1>
+            <p>With gas prices steadily ricing, save yourself the hassle and sail smooth to the grocery store, doctors office, your mom's house, or anywhere!</p><br>
+            </div>
+
+            <div class="flex-item2">
+            <h3 id="vid" class="vidh3 center">Skip the fuss and come ride with us!</h3>
+            <figure class="video">                
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TLBJY8iP7h0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+            </figure>            
+            </div>       
+
+            <div class="flex-item2 center">
+                <h1>Please tell us how can assist you.<h1>
+                <p>Enter your name and email address, and we will get back to you as soon as possible</p>
+
+                <form action="https://www.freecodecamp.com/email-submit" id="form">    
+                    <input type="text" placeholder="First" required>
+                    <input type="text" placeholder="Last" required>
+                    <label for="email">
+                    <input type="email" id="email" placeholder="Email" required>
+                    </label>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            
+        </div>
+    </body>
+</html>
